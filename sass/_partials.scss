@@ -205,7 +205,9 @@
 .swal2-popup{
     background: linear-gradient(#000, rgba(35, 35, 33, 0.667)) !important;
     outline: 1px solid darkgoldenrod;
-    color:$color-select;
+    .swal2-title{
+        color:$color-select;
+    }
     .swal2-confirm{
         width: 100px;
     }
