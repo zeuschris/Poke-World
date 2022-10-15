@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1, "name": "pikachu", "type": "electro", "attk": 37, "def": 17, "age": 2, "img": "../images/pokemones/pikachu.gif", "font": "../images/font-pokemon/font-pikachu.png"
+    },
+    {
+        "id": 2, "name": "charizard", "type": "fire", "attk": 55, "def": 5, "age": 6, "img" : "../images/pokemones/charizard.gif", "font": "../images/font-pokemon/font-charizard.png"
+    },
+    {
+        "id":3, "name": "gengar", "type": "mort", "attk": 41, "def": 11, "age": 4, "img" : "../images/pokemones/gengar.gif", "font": "../images/font-pokemon/font-gengar.png"
+    }
+]

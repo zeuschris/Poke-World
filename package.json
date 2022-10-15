@@ -1,0 +1,24 @@
+{
+  "name": "pokeworld",
+  "version": "1.0.0",
+  "description": "Poke World Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --include-path scss sass/main.scss css/main.css",
+    "bot-sass": "nodemon -e scss -x \"npm run sass\""
+  },
+  "author": "Chris",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.0",
+    "bootstrap-icons": "^1.9.1",
+    "react-toastify": "^9.0.8",
+    "sweetalert2": "^11.4.38"
+  }
+}

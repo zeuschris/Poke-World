@@ -1,0 +1,35 @@
+@import "box-sizing";
+@import "vars";
+@import "structure";
+@import "partials";
+
+
+@font-face {
+    font-family: 'Pokemon Hollow';
+    src: url('../fonts/Pokemon\ Hollow.ttf');
+}
+
+@font-face {
+    font-family: 'Pokemon Solid';
+    src: url('../fonts/Pokemon\ Solid.ttf');
+}
+
+@font-face { 
+    font-family: 'Friz Quadrata';
+    src: url(../fonts/friz-quadrata-regular-os-5870333951e7c.ttf);
+}
+
+@font-face { 
+    font-family: 'Arial Narrow';
+    src: url(../fonts/Arial\Narrow.ttf);
+}
+
+@font-face{
+    font-family: 'SemplicitaPro-MedIt';
+    src: url(../fonts/SemplicitaPro-MedIt.otf);
+}
+
+@font-face{
+    font-family: 'Godofwar-wPz6';
+    src: url(../fonts/Godofwar-wPz6.ttf);
+}

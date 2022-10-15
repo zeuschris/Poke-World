@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  background-color: #ffbd7f;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "header    header      header" "main      main        right" "footer    footer      footer";
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+body {
+  background-image: url("../images/bg-main2.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-y: -50px;
+  overflow-x: hidden;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  grid-area: header;
+  background-color: #000;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.main {
+  grid-area: main;
+  display: flex;
+  justify-content: left;
+}
+
+.right {
+  grid-area: right;
+  display: flex;
+  justify-content: center;
+  height: 77vh;
+  width: 99%;
+  background: rgba(255, 255, 255, 0.353);
+  border-radius: 20px;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  background: rgba(117, 240, 127, 0.852);
+  box-shadow: 0 0 5px #000 inset;
+  position: relative;
+  top: 17px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  z-index: 1;
+}
+.menu .icon-download {
+  vertical-align: middle;
+  font-size: 25px;
+  margin: 0 5px;
+}
+.menu a {
+  color: rgb(18, 17, 19);
+  text-decoration: none;
+  font-family: "Arial Narrow";
+  font-size: 20px;
+  transition: 0.2s all;
+  padding: 10px;
+}
+.menu a:hover {
+  background-color: rgba(154, 240, 161, 0.818);
+  color: #fff;
+}
+
+.item-footer {
+  background: linear-gradient(#272727, #383838);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  position: absolute;
+  margin-top: 20px;
+  bottom: 0;
+  color: #fff;
+}
+.item-footer ion-icon {
+  color: rgb(223, 170, 33);
+  font-size: 22px;
+  vertical-align: bottom;
+  margin: 0 7px;
+  transition: color 0.2s;
+}
+.item-footer ion-icon:hover {
+  color: #fff;
+}
+
+.main-div {
+  margin: 20px 30px;
+}
+.main-div .bg-items {
+  background: rgba(103, 82, 210, 0.795);
+  box-shadow: 3px 2px 5px #fff, 3px 2px 5px #fff;
+  width: 1200px;
+  font-size: 50px;
+  font-family: "Pokemon Solid";
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.img-pokemon {
+  height: 200px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: 0px 0px 15px 0px;
+}
+
+.div-pokemon {
+  color: #fff;
+  background: rgb(50, 47, 43);
+  border-radius: 20px;
+  font-family: "Friz Quadrata";
+  font-weight: bolder;
+  border: 2px solid rgb(240, 149, 12);
+  height: 450px;
+  width: 250px;
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  letter-spacing: 1px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.div-pokemon h2 {
+  text-align: center;
+}
+.div-pokemon p {
+  font-size: 15px;
+  margin: 10px 5px;
+  text-align: left;
+}
+
+.font-pokemon {
+  width: 210px;
+  height: 90px;
+}
+
+.preloader {
+  width: 50px;
+  position: absolute;
+  top: 30%;
+  right: 15%;
+  height: 50px;
+  border: 10px solid rgb(56, 56, 53);
+  border-top: 10px solid rgb(220, 187, 22);
+  border-radius: 50%;
+  -webkit-animation-name: girar;
+          animation-name: girar;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.dark-mode {
+  color: #fff;
+  transition: 0.2s all;
+  background-image: url("/images/modoDark.jpg");
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #717171;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #313030;
+}
+
+::-moz-selection {
+  color: #79e150;
+  background-color: #1d1b1c;
+}
+
+::selection {
+  color: #79e150;
+  background-color: #1d1b1c;
+}
+
+@font-face {
+  font-family: "Pokemon Hollow";
+  src: url("../fonts/Pokemon Hollow.ttf");
+}
+@font-face {
+  font-family: "Pokemon Solid";
+  src: url("../fonts/Pokemon Solid.ttf");
+}
+@font-face {
+  font-family: "Friz Quadrata";
+  src: url(../fonts/friz-quadrata-regular-os-5870333951e7c.ttf);
+}
+@font-face {
+  font-family: "Arial Narrow";
+  src: url(../fonts/ArialNarrow.ttf);
+}
+@font-face {
+  font-family: "SemplicitaPro-MedIt";
+  src: url(../fonts/SemplicitaPro-MedIt.otf);
+}
+@font-face {
+  font-family: "Godofwar-wPz6";
+  src: url(../fonts/Godofwar-wPz6.ttf);
+}/*# sourceMappingURL=main.css.map */
