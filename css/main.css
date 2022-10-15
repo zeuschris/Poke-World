@@ -215,7 +215,7 @@ footer {
   background: linear-gradient(#000, rgba(35, 35, 33, 0.667)) !important;
   outline: 1px solid darkgoldenrod; }
   .swal2-popup .swal2-title {
-    color: #79e150; }
+    color: #79e150 !important; }
   .swal2-popup .swal2-confirm {
     width: 100px; }
 
