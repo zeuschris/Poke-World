@@ -25,7 +25,7 @@ let navDarkmode = document.querySelector('#nav-darkmode')
         const value = inputBusqueda.value.toLowerCase()
         e.preventDefault()
         if ( value === '') {
-        alert('El buscador esta vacio')
+            null
         }else{
         divResultado.innerHTML = `<div class="container">
                                     <div class="loader"></div>
