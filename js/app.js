@@ -4,7 +4,22 @@ let divResultado = document.querySelector('#resultado')
 let divOscuro = document.querySelector('#modoOscuro')
 let imageMain = document.querySelector('#image-main')
 let navDarkmode = document.querySelector('#nav-darkmode')
+let containerBody = document.querySelector('#container-body')
 
+    containerBody 
+    ? 
+
+    Swal.fire({
+        title: 'Bienvenido!',
+        text: 'Descubre a tus pokemones favoritos ✨',
+        imageUrl: '../images/pokemon-bg-main.jpg',
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: 'Pokemon-bg-main',
+    })
+
+    :
+    null
 
     fetch('/data/pokemons.json')
         .then((resp) => resp.json())

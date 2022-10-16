@@ -80,6 +80,12 @@ footer {
       background-color: rgba(154, 240, 161, 0.818);
       color: #fff; }
 
+.swal2-html-container {
+  color: #b4a9a9 !important; }
+
+.swal2-styled.swal2-confirm {
+  background-color: #084298 !important; }
+
 .item-footer {
   background: linear-gradient(#272727d0, #383838cf);
   display: flex;
