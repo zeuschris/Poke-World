@@ -11,7 +11,7 @@ let containerBody = document.querySelector('#container-body')
 
     Swal.fire({
         title: 'Bienvenido!',
-        text: 'Descubre a tus pokemones favoritos ✨',
+        text: 'Descubre tus pokemones favoritos ✨',
         imageUrl: '../images/pokemon-bg-main.jpg',
         imageWidth: 400,
         imageHeight: 200,
