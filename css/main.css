@@ -181,6 +181,14 @@ footer {
   100% {
     transform: rotate(360deg); } }
 
+.table-footer {
+  border: none;
+  user-select: none; }
+  .table-footer td {
+    color: #fea45a;
+    text-shadow: 0 0 5px #000;
+    font-family: 'Pokemon Solid'; }
+
 .dark-mode {
   color: #fff;
   transition: .2s all;
@@ -861,6 +869,10 @@ footer {
 @font-face {
   font-family: 'Pokemon Hollow';
   src: url("../fonts/Pokemon Hollow.ttf"); }
+
+@font-face {
+  font-family: 'LMS PokeDex';
+  src: url("../fonts/LmsPokedex-XEja.ttf"); }
 
 @font-face {
   font-family: 'Pokemon Solid';

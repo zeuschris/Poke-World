@@ -153,6 +153,15 @@
     }
 }
 
+.table-footer{
+    border: none;
+    user-select: none;
+    td{
+        color: rgb(254, 164, 90);
+        text-shadow: 0 0 5px #000;
+        font-family: 'Pokemon Solid';
+    }
+}
 
 
 // Dark Mode Screen
