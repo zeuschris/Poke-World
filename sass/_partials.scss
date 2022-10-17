@@ -70,6 +70,16 @@
         font-family: 'Pokemon Solid';
         user-select: none;
     }
+    li{
+        list-style: none;
+        font-size: 30px;
+        font-family: 'Friz Quadrata';
+        margin-top: 7px;
+    }
+    p{
+        font-family: 'Friz Quadrata';
+        font-size: 25px;
+    }
 }
 
 // Imagenes de pokemones
@@ -170,6 +180,10 @@
     color: #fff;
     transition: .2s all;
     background-image: url('/images/modoDark.jpg');
+    .bg-items{
+        color: #fff;
+        text-shadow: 0 0 5px #000, 0 0 5px #000;
+    }
 }
 
 // 

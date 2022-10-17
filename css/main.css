@@ -113,6 +113,14 @@ footer {
     font-size: 50px;
     font-family: 'Pokemon Solid';
     user-select: none; }
+  .main-div li {
+    list-style: none;
+    font-size: 30px;
+    font-family: 'Friz Quadrata';
+    margin-top: 7px; }
+  .main-div p {
+    font-family: 'Friz Quadrata';
+    font-size: 25px; }
 
 .img-pokemon {
   height: 200px;
@@ -193,6 +201,9 @@ footer {
   color: #fff;
   transition: .2s all;
   background-image: url("/images/modoDark.jpg"); }
+  .dark-mode .bg-items {
+    color: #fff;
+    text-shadow: 0 0 5px #000, 0 0 5px #000; }
 
 .darkmode-button {
   background-color: rgba(33, 31, 63, 0.734);
