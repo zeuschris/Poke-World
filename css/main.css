@@ -80,6 +80,9 @@ footer {
       background-color: rgba(154, 240, 161, 0.818);
       color: #fff; }
 
+.footer {
+  background-color: #291a4f; }
+
 .swal2-html-container {
   color: #b4a9a9 !important; }
 
@@ -194,7 +197,6 @@ footer {
   user-select: none; }
   .table-footer td {
     color: #fea45a;
-    text-shadow: 0 0 5px #000;
     font-family: 'Pokemon Solid'; }
 
 .dark-mode {
@@ -204,6 +206,8 @@ footer {
   .dark-mode .bg-items {
     color: #fff;
     text-shadow: 0 0 5px #000, 0 0 5px #000; }
+  .dark-mode .footer {
+    background-color: rgba(0, 0, 0, 0.918); }
 
 .darkmode-button {
   background-color: rgba(33, 31, 63, 0.734);

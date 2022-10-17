@@ -29,6 +29,10 @@
     }
 }
 
+.footer{
+    background-color: rgb(41, 26, 79);
+}
+
 .swal2-html-container{
     color: rgb(180, 169, 169) !important;
 }
@@ -168,7 +172,6 @@
     user-select: none;
     td{
         color: rgb(254, 164, 90);
-        text-shadow: 0 0 5px #000;
         font-family: 'Pokemon Solid';
     }
 }
@@ -183,6 +186,9 @@
     .bg-items{
         color: #fff;
         text-shadow: 0 0 5px #000, 0 0 5px #000;
+    }
+    .footer{
+        background-color: rgba(0, 0, 0, 0.918);
     }
 }
 
